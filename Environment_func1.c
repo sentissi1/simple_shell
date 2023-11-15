@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- * Get_env_func -A function that prints the current environment
+ * _Get_env_func -A function that prints the current environment
  * @data: A structure could contain potential arguments. Used to maintain
  *          constant function prototype.
  * Return: Always 0
  */
-int Get_env_func(data_t *data)
+int _Get_env_func(data_t *data)
 {
 	print_list_str(data->env);
 	return (0);

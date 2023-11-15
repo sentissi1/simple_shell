@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- * _History_fun -a function that displays the history list
+ * _History_func -a function that displays the history list
  * @data:a structure that could contain potential arguments.
  *
  *  Return: Always 0
  */
-int _History_fun(data_t *data)
+int _History_func(data_t *data)
 {
 	print_list(data->history);
 	return (0);

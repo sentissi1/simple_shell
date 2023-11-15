@@ -156,12 +156,12 @@ int _getline(data_t *data, char **pontr, size_t *len)
 }
 
 /**
- * signintoHandler - blocks ctrl-C
+ * sigintHandler - blocks ctrl-C
  * @sgn_num: the signal number
  *
  * Return: void
  */
-void signintoHandler(__attribute__((unused))int sgn_num)
+void sigintHandler(__attribute__((unused))int sgn_num)
 {
 	_put_input("\n");
 	_put_input("$ ");

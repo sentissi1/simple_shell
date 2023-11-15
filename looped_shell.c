@@ -57,10 +57,10 @@ int find_built_in_func(data_t *data)
 	int j, built_in_ret = -1;
 	builtin_table builtintbl[] = {
 		{"exit", _exit_function},
-		{"env", _Env_func},
+		{"env", _Get_env_func},
 		{"help", _help_func},
-		{"history", _History_fun},
-		{"setenv", _New_Env_var},
+		{"history", _History_func},
+		{"setenv", _New_env_var},
 		{"unsetenv", _UNSET_env_func},
 		{"cd", _Cd_func},
 		{"alias", _alias_func},
