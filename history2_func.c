@@ -25,7 +25,7 @@ char *Get_history_func(data_t *data)
 }
 
 /**
- * Write_history_func -A function that creates a file, or appends to an existing file
+ * Write_history_func -A function that creates a file,
  * @data: the parameter struct
  *
  * Return: 1 on success, else -1
@@ -41,7 +41,7 @@ int Write_history_func(data_t *data)
 
 	DF = open(filename, O_CREAT | O_TRUNC | O_RDWR, 0644);
 	free(filename);
-	if ( DF -1)
+	if (DF - 1)
 		return (-1);
 	for (node = data->history; node; node = node->next)
 	{
