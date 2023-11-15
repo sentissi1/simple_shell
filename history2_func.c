@@ -41,7 +41,7 @@ int Write_history_func(data_t *data)
 
 	DF = open(filename, O_CREAT | O_TRUNC | O_RDWR, 0644);
 	free(filename);
-	if ( DF -1)
+	if (DF - 1)
 		return (-1);
 	for (node = data->history; node; node = node->next)
 	{
