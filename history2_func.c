@@ -25,7 +25,7 @@ char *Get_history_func(data_t *data)
 }
 
 /**
- * Write_history_func -A function that creates a file, or appends to an existing file
+ * Write_history_func -A function that creates a file,
  * @data: the parameter struct
  *
  * Return: 1 on success, else -1
