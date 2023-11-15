@@ -33,7 +33,7 @@ ssize_t input_buff(data_t *data, char **buff, size_t *length)
 			data->linecount_flag = 1;
 			delete_comments(*buff);
 			Build_history_func(data, *buff, data->histcount++);
-			
+
 			{
 				*length = x;
 				data->cmd_buf = buff;
