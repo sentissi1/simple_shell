@@ -7,7 +7,7 @@
  *@c: the amount of characters to be copied
  *Return: string
  */
-char *_strncpy(char *Dest, char *Src, int m )
+	char *_strncpy(char *Dest, char *Src, int m)
 {
 	int x, y;
 	char *c = Dest;
